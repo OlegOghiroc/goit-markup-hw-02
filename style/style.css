@@ -12,17 +12,51 @@ body {
   font-weight: 400;
   color: var(--primary-text-color);
 }
-.link .logo {
+
+.logo-link {
+  text-decoration: none;
+  font-family: inherit
   color: var(--primary-text-color);
+}
+
+.logo {
+  color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
-.web {
-  color: var(--accent-color);
-}
-.link {
-  text-decoration: none;
+
+.studio-top {
   color: var(--primary-text-color);
+}
+
+.studio-bottom {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+.nav-list > a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.list > li > a, .list {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts, .mail, .tell {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color)
 }
