@@ -54,10 +54,6 @@ ul {
 .current {
   color: var(--accent-color);
 }
-.filter-button.current {
-  background-color: var(--accent-color);
-  color: #ffffff;
-}
 
 /* site-contact */
 .site-contact {
@@ -102,7 +98,7 @@ ul {
 
 .order-button:hover,
 .order-button:focus {
-  background-color: red;
+  background-color: var(--accent-color);
 }
 
 /* company description */
